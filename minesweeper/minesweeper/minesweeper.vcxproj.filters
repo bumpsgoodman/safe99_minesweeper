@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="safe99_renderer_ddraw">
+      <UniqueIdentifier>{2414da47-0432-4f2f-ba2e-06e984223cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_core">
+      <UniqueIdentifier>{97c2ac6b-b726-4245-9296-3e9ca9f9ccf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_common">
+      <UniqueIdentifier>{8905fe5f-e555-4b95-ac2c-9d11d17fed65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_core\generic">
+      <UniqueIdentifier>{ebc1c33a-946a-4490-acb3-8ee262b54d03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="safe99_core\util">
+      <UniqueIdentifier>{7c03365d-2044-4f18-a2b3-be0bb2561ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minesweeper">
+      <UniqueIdentifier>{ca56aaba-389f-42e6-8781-235ba763853e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\safe99_renderer_ddraw\renderer_ddraw.h">
+      <Filter>safe99_renderer_ddraw</Filter>
+    </ClInclude>
+    <ClInclude Include="source\safe99_core\generic\chunked_memory_pool.h">
+      <Filter>safe99_core\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\safe99_core\generic\dynamic_vector.h">
+      <Filter>safe99_core\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\safe99_core\generic\fixed_vector.h">
+      <Filter>safe99_core\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\safe99_core\generic\list.h">
+      <Filter>safe99_core\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\safe99_core\generic\map.h">
+      <Filter>safe99_core\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\safe99_core\generic\static_memory_pool.h">
+      <Filter>safe99_core\generic</Filter>
+    </ClInclude>
+    <ClInclude Include="source\safe99_core\util\hash_function.h">
+      <Filter>safe99_core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="source\safe99_core\util\timer.h">
+      <Filter>safe99_core\util</Filter>
+    </ClInclude>
+    <ClInclude Include="source\safe99_common\assert.h">
+      <Filter>safe99_common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\safe99_common\defines.h">
+      <Filter>safe99_common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\safe99_common\safe_delete.h">
+      <Filter>safe99_common</Filter>
+    </ClInclude>
+    <ClInclude Include="source\minesweeper\image.h">
+      <Filter>minesweeper</Filter>
+    </ClInclude>
+    <ClInclude Include="source\minesweeper\image_loader.h">
+      <Filter>minesweeper</Filter>
+    </ClInclude>
+    <ClInclude Include="source\minesweeper\game.h">
+      <Filter>minesweeper</Filter>
+    </ClInclude>
+    <ClInclude Include="source\minesweeper\mouse_event.h">
+      <Filter>minesweeper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\minesweeper\main.c">
+      <Filter>minesweeper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\minesweeper\image_loader.c">
+      <Filter>minesweeper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\minesweeper\game.c">
+      <Filter>minesweeper</Filter>
+    </ClCompile>
+    <ClCompile Include="source\minesweeper\mouse_event.c">
+      <Filter>minesweeper</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
